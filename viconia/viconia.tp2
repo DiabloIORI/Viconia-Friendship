@@ -37,7 +37,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY ViFrienoconvert BEGIN END
+	ACTION_DEFINE_ARRAY ViFrienoconvert BEGIN install END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY ViFriereload BEGIN Setup END
@@ -65,7 +65,7 @@ LANGUAGE ~Russian (translation by arcanecoast.ru)~
          ~viconia/translations/russian/setup.tra~
 LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~
-         ~viconia/translations/schinese/setup.tra~
+         ~viconia/translations/schinese/install.tra~
 
 
 /* ===================================== *
